@@ -6,7 +6,7 @@ from config import API_KEY, SPREADSHEET_ID, FOLDER_ID, drive_service, creds
 
 
 @functions_framework.http
-def main(request=None):
+def main(request):
     try:
         print("Starting...")
 
