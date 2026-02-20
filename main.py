@@ -51,7 +51,3 @@ def main(request=None):
     except Exception as e:
         print(f"Error: {str(e)}")
         return f"Error: {str(e)}", 500
-
-
-if __name__ == "__main__":
-    main()
